@@ -1,0 +1,99 @@
+.share-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #f3f3f3;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.container {
+    position: relative;
+}
+
+.share-btn:hover {
+    background: #c33764;
+    color: white;
+    transform: scale(1.1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 360px;
+    padding: 30px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #c33764;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Warna platform */
+.youtube { background: #FF0000; }
+.instagram { background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); }
+.capcut { background: #000; }
+.tiktok {
+    background: linear-gradient(45deg, #000000, #ff0050, #00f2ea);
+}
